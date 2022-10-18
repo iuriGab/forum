@@ -28,9 +28,21 @@ public class TopicoDto {
 		return titulo;
 	}
 	
+	
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	
+	
 	public String getMensagem() {
 		return mensagem;
 	}
+	
+	
+	public void setMensagem(String mensagem) {
+		this.mensagem = mensagem;
+	}
+	
 	
 	public LocalDateTime getDataCriacao() {
 		return dataCriacao;

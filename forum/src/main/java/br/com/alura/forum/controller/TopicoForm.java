@@ -13,20 +13,13 @@ public class TopicoForm {
 	public String getTitulo() {
 		return titulo;
 	}
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
+	
 	public String getMensagem() {
 		return mensagem;
 	}
-	public void setMensagem(String mensagem) {
-		this.mensagem = mensagem;
-	}
+	
 	public String getCurso() {
 		return nomeCurso;
-	}
-	public void setCurso(String curso) {
-		this.nomeCurso = curso;
 	}
 	
 	public Topico converter(CursoRepository cursoRepository) {
